@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejemplo011925597.Ejemplo1"
+             Title="Ejemplo1">
+    <!--<Summary>
+        <Createddate>23/5/2024</createddate>
+        <company>Shelini</company>
+        <lastmodificationdate>23/5/2024</lastmodificationdate>
+        <lastmodificationdescription>
+            Se agregó imágen alusiva al ejemplo
+        </lastmodificationdescription>
+        <lastmodifierautor>Maynor</lastmodifierautor>
+        </Summary>
+        -->
+    <StackLayout Margin="20,35,20,20">
+        <Image Source="label.jpg" HeightRequest="250" WidthRequest="250" />
+        <Label 
+            Text="Que taaaaallll!!!!"
+            TextColor="Green" 
+            HorizontalOptions="End"
+            FontAttributes="Bold"
+            FontSize="22"
+            TextDecorations="Strikethrough"/>
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <Label.FormattedText>
+            <FormattedString>
+                <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programacion orientada a objetos</Span>
+                <Span FontAttributes="Italic" TextColor="Blue">es un paradigma de la programacion</Span>
+                <Span TextColor="Gray" TextDecorations="Strikethrough">que nos ayuda a tener mejores resultados</Span>
+            </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
